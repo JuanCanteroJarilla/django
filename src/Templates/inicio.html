@@ -1,0 +1,7 @@
+<div style="background:#2E64FE">
+	<h1>Hola Mundo</h1>
+</div>
+<form method="POST" action="">{% csrf_token %} <!--Esto es para que no aparezcan los datos del form en la barra de navegador-->
+{{ form.as_p }}
+<input type='submit' value="Registrar"/>
+</form>
